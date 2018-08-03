@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Child Organization</fullName>
+                <default>false</default>
+                <label>Child Organization</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Employer</fullName>
+                <default>false</default>
+                <label>Employer</label>
+            </value>
+            <value>
+                <fullName>Family Member</fullName>
+                <default>false</default>
+                <label>Family Member</label>
+            </value>
+            <value>
+                <fullName>Group Manager</fullName>
+                <default>false</default>
+                <label>Group Manager</label>
+            </value>
+            <value>
+                <fullName>Group Member</fullName>
+                <default>false</default>
+                <label>Group Member</label>
+            </value>
+            <value>
+                <fullName>Head Of Household</fullName>
+                <default>false</default>
+                <label>Head Of Household</label>
+            </value>
+            <value>
+                <fullName>Organization Owner</fullName>
+                <default>false</default>
+                <label>Organization Owner</label>
+            </value>
+            <value>
+                <fullName>Other Household Member</fullName>
+                <default>false</default>
+                <label>Other Household Member</label>
+            </value>
+            <value>
+                <fullName>Owned Organization</fullName>
+                <default>false</default>
+                <label>Owned Organization</label>
+            </value>
+            <value>
+                <fullName>Parent Organization</fullName>
+                <default>false</default>
+                <label>Parent Organization</label>
+            </value>
+            <value>
+                <fullName>Representative</fullName>
+                <default>false</default>
+                <label>Representative</label>
+            </value>
+            <value>
+                <fullName>Represented Party</fullName>
+                <default>false</default>
+                <label>Represented Party</label>
+            </value>
+            <value>
+                <fullName>Service Provider</fullName>
+                <default>false</default>
+                <label>Service Provider</label>
+            </value>
+            <value>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+                <label>Spouse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

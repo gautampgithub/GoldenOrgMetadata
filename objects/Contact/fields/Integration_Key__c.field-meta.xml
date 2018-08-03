@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_Key__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>It is the combination of SourceSystem and ExternalID with the format as SourceSystem-ExternalID. The purpose is only to support the API integration pattern with the unique ExternalID for SFDC limitation and performance.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>It is the combination of SourceSystem and ExternalID with the format as SourceSystem-ExternalID. The purpose is only to support the API integration pattern with the unique ExternalID for SFDC limitation and performance.</inlineHelpText>
+    <label>Integration Key</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
